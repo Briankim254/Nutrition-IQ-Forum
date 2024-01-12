@@ -1,5 +1,5 @@
 
-# Breadit - A Modern Fullstack Reddit Clone 
+# Nutrition-IQ Forum - A Modern Fullstack Forum
 
 Built with the Next.js App Router, TypeScript & Tailwind
 
@@ -23,7 +23,7 @@ Built with the Next.js App Router, TypeScript & Tailwind
 To get started with this project, run
 
 ```bash
-  git clone -b starter-code https://github.com/joschan21/breadit.git
+  git clone -b starter-code https://github.com/Briankim254/Nutrition-IQ-Forum.git
 ```
 
 and copy these .env.example variables into a separate .env file:
@@ -42,38 +42,11 @@ REDIS_URL=
 REDIS_SECRET=
 ```
 
-if you'd like, you can paste this snippet for quick component creation (optional):
-```typescript
-// vscode settings -> user snippets -> typescriptreact.json
-```
-
-```json
-"Typescript React Function Component": {
-    "prefix": "fc",
-    "body": [
-      "import { FC } from 'react'",
-      "",
-      "interface ${TM_FILENAME_BASE}Props {",
-      "  $1",
-      "}",
-      "",
-      "const $TM_FILENAME_BASE: FC<${TM_FILENAME_BASE}Props> = ({$2}) => {",
-      "  return <div>$TM_FILENAME_BASE</div>",
-      "}",
-      "",
-      "export default $TM_FILENAME_BASE"
-    ],
-    "description": "Typescript React Function Component"
-  },
-  ```
-
 and that's all you need to get started!
 
 
 ## Acknowledgements
 
-- [Upstash Redis](https://upstash.com/?utm_source=Josh2) for making this possible
-- [Code with Antonio](https://www.youtube.com/@codewithantonio) for thumbnail design inspiration
 - Shadcn's [Taxonomy respository](https://github.com/shadcn/taxonomy) for showcasing the post editor
 
 ## License
