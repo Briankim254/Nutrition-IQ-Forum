@@ -3,6 +3,7 @@
 
 Built with the Next.js App Router, TypeScript & Tailwind
 
+![Screenshot from 2024-01-13 21-17-50](https://github.com/Briankim254/Nutrition-IQ-Forum/assets/91450029/dc3db1bc-cae5-4303-a4e1-4450a2e38427)
 
 ## Features
 
